@@ -10,8 +10,8 @@
     "url": "https://github.com/Leelow"
   },
   "scripts": {
-    "test": "standard && node \"./node_modules/mocha/bin/_mocha\" --timeout 10 test.js",
-    "coverage": "standard && \"./node_modules/.bin/istanbul\" cover ./node_modules/mocha/bin/_mocha -- --timeout 10 --recursive -R spec test.js",
+    "test": "standard && node \"./node_modules/mocha/bin/_mocha\" --timeout 100 test.js",
+    "coverage": "standard && \"./node_modules/.bin/istanbul\" cover ./node_modules/mocha/bin/_mocha -- --timeout 100 --recursive -R spec test.js",
     "codacy": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
   },
   "devDependencies": {
