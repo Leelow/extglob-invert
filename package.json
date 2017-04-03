@@ -1,0 +1,12 @@
+{
+  "name": "glob-invert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Leelow/glob-invert",
+  "author": "Leo Lozach <leo.lozach@spikeelabs.fr>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "glob": "^7.1.1"
+  }
+}
