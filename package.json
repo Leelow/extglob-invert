@@ -1,5 +1,5 @@
 {
-  "name": "glob-invert",
+  "name": "extglob-invert",
   "version": "1.0.0",
   "description": "A tiny tool to invert extglobs.",
   "main": "extglob-invert.js",
