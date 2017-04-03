@@ -22,10 +22,10 @@ $ npm install --save extglob-invert
 ```js
 const invert = require('extglob-invert');
 
-invert('/path/to/file')           // !(path/to/file)
-invert('   !  !( !/path/to/file)') // /path/to/file
-invert('!**')                     // **
-invert('!(!!(**))')               // **
+invert('/path/to/file')             // !(path/to/file)
+invert('   !  !( !/path/to/file)')  // /path/to/file
+invert('!**')                       // **
+invert('!(!!(**))')                 // **
 
 ```
 
