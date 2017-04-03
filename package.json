@@ -1,12 +1,36 @@
 {
   "name": "glob-invert",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Leelow/glob-invert",
-  "author": "Leo Lozach <leo.lozach@spikeelabs.fr>",
+  "description": "A tiny tool to invert extglobs.",
+  "main": "extglob-invert.js",
   "license": "MIT",
-  "dependencies": {},
+  "author": {
+    "name": "Leo Lozach",
+    "email": "leo.lozach@gmail.com",
+    "url": "https://github.com/Leelow"
+  },
+  "scripts": {
+    "test": "standard && node \"./node_modules/mocha/bin/_mocha\" --timeout 10 test.js",
+    "coverage": "standard && \"./node_modules/.bin/istanbul\" cover ./node_modules/mocha/bin/_mocha -- --timeout 10 --recursive -R spec test.js",
+    "codacy": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
+  },
   "devDependencies": {
-    "glob": "^7.1.1"
-  }
+    "codacy-coverage": "^2.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "standard": "^9.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leelow/extglob-invert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leelow/extglob-invert/issues"
+  },
+  "homepage": "https://github.com/Leelow/extglob-invert#readme",
+  "keywords": [
+    "extglob",
+    "glob",
+    "invert"
+  ]
 }
