@@ -8,7 +8,7 @@
 [![Dev-dependencies][dev-dependencies-image]][dev-dependencies-url]
 [![JavaScript Style Guide][javascript-standard-image]][javascript-standard-url]
 
-An easy way to hook process.exit().
+A tiny tool to invert extglobs.
 
 ## Install
 
