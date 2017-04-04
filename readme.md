@@ -46,11 +46,11 @@ $ npm run coverage
 [downloads-url]: https://www.npmjs.com/package/extglob-invert
 [travis-image]: https://travis-ci.org/Leelow/extglob-invert.svg?branch=master
 [travis-url]: https://travis-ci.org/Leelow/extglob-invert
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/32aj3ap0kelnbdqt?svg=true
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/ktjub3fo9bvnohjj?svg=true
 [appveyor-url]: https://ci.appveyor.com/project/Leelow/extglob-invert
-[codacy-coverage-image]: https://api.codacy.com/project/badge/Coverage/be1d56eb162d41a586ecac79685161f7
+[codacy-coverage-image]: https://api.codacy.com/project/badge/Coverage/049a83f312774b2288138611daf67b27
 [codacy-coverage-url]: https://www.codacy.com/app/Leelow/extglob-invert?utm_source=github.com&utm_medium=referral&utm_content=Leelow/extglob-invert&utm_campaign=Badge_Coverage
-[codacy-grade-image]: https://api.codacy.com/project/badge/Grade/be1d56eb162d41a586ecac79685161f7
+[codacy-grade-image]: https://api.codacy.com/project/badge/Grade/049a83f312774b2288138611daf67b27
 [codacy-grade-url]: https://www.codacy.com/app/Leelow/extglob-invert?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Leelow/extglob-invert&amp;utm_campaign=Badge_Grade
 [dev-dependencies-image]: https://david-dm.org/leelow/extglob-invert/dev-status.svg
 [dev-dependencies-url]: https://david-dm.org/leelow/extglob-invert?type=dev
