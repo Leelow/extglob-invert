@@ -11,8 +11,8 @@
   },
   "scripts": {
     "test": "standard && node \"./node_modules/mocha/bin/_mocha\" --timeout 100 test.js",
-    "coverage": "standard && \"./node_modules/.bin/istanbul\" cover ./node_modules/mocha/bin/_mocha -- --timeout 100 --recursive -R spec test.js",
-    "codacy": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
+    "coverage": "standard && \"./node_modules/.bin/istanbul\" cover -x test.js ./node_modules/mocha/bin/_mocha -- --timeout 100 test.js",
+    "codacy": "istanbul cover -x test.js ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
   },
   "devDependencies": {
     "codacy-coverage": "^2.0.1",
