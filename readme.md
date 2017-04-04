@@ -26,6 +26,7 @@ invert('/path/to/file')             // !(path/to/file)
 invert('   !  !( !/path/to/file)')  // /path/to/file
 invert('!**')                       // **
 invert('!(!!(**))')                 // **
+invert(['file1', '!file2'])         // ['!(file1)', 'file2']
 
 ```
 
